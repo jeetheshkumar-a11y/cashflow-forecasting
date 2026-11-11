@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# big / regenerable data
+data/*.parquet
+data/PS_*.csv          # PaySim CSV from Kaggle (~470 MB) - download it yourself
+
+# prediction caches and smoke-run output (re-created by the scripts)
+results/cache/
+results_quick/
