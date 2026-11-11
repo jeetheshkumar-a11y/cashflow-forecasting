@@ -1,0 +1,22 @@
+{
+  "n_users": 200,
+  "seeds": 3,
+  "windows": {
+    "train": 34800,
+    "val": 4200,
+    "cal": 5000,
+    "test": 4000
+  },
+  "headline": {
+    "best_simple": "Ridge (linear)",
+    "best_deep": "N-BEATS",
+    "mae_diff_deep_minus_simple": -502.02516093453505,
+    "ci95": [
+      -1095.926205563818,
+      84.66731214851521
+    ]
+  },
+  "reference": "Seasonal avg (last 3 months)",
+  "prophet_users": 50,
+  "best_shortfall_model": "GRU"
+}
